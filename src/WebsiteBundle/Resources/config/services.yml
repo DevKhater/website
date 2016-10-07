@@ -1,0 +1,14 @@
+# app/config/services.yml
+services:
+    # ...
+    app.bands_uploader:
+        class: WebsiteBundle\FileUploader
+        arguments: ['%bands_directory%']
+#        
+#    app.doctrine_bands_listener:
+#        class: WebsiteBundle\EventListener\BandUploadListener
+#        arguments: ['@service_container', '@app.bands_uploader', '%bands_directory%']
+#        tags:
+#            - { name: doctrine.entity_listener, entity: WebsiteBundle\Entity\Band, event: prePersist }
+#            - { name: doctrine.entity_listener, entity: WebsiteBundle\Entity\Band, event: preUpdate }
+#            - { name: doctrine.entity_listener, entity: WebsiteBundle\Entity\Band, event: postLoad }

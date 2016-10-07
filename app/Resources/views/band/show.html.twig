@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Band</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ band.id }}</td>
+            </tr>
+            <tr>
+                <th>Title</th>
+                <td>{{ band.title }}</td>
+            </tr>
+            <tr>
+                <th>Genre</th>
+                <td>{{ band.genre }}</td>
+            </tr>
+            <tr>
+                <th>Genre</th>
+                <td>
+                    {{dump(band.headshot)}}
+                    <img src="{{ asset('uploads/bands/'~ band.headshot) | imagine_filter('my_thumb') }}" />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('band_index') }}">Back to the list</a>
+        </li>
+        <li>
+            <a href="{{ path('band_edit', { 'id': band.id }) }}">Edit</a>
+        </li>
+        <li>
+            {{ form_start(delete_form) }}
+                <input type="submit" value="Delete">
+            {{ form_end(delete_form) }}
+        </li>
+    </ul>
+{% endblock %}

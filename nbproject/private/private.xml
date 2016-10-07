@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/aisel/website/src/WebsiteBundle/WebsiteBundle.php</file>
+            <file>file:/C:/aisel/website/src/WebsiteBundle/Entity/Event.php</file>
+            <file>file:/C:/aisel/website/src/WebsiteBundle/Resources/views/Default/index.html.twig</file>
+            <file>file:/C:/aisel/website/var/logs/dev.log</file>
+            <file>file:/C:/aisel/website/app/AppKernel.php</file>
+            <file>file:/C:/aisel/website/src/WebsiteBundle/Resources/config/parameters.yml</file>
+            <file>file:/C:/aisel/website/composer.json</file>
+            <file>file:/C:/aisel/website/src/WebsiteBundle/EventListener/BandUploadListener.php</file>
+            <file>file:/C:/aisel/website/app/config/parameters.yml</file>
+            <file>file:/C:/aisel/website/app/Resources/views/band/show.html.twig</file>
+            <file>file:/C:/aisel/website/src/WebsiteBundle/Resources/config/services.yml</file>
+            <file>file:/C:/aisel/website/src/WebsiteBundle/Controller/BandController.php</file>
+            <file>file:/C:/aisel/website/src/WebsiteBundle/Form/BandType.php</file>
+            <file>file:/C:/aisel/website/app/config/config.yml</file>
+            <file>file:/C:/aisel/website/app/config/routing.yml</file>
+            <file>file:/C:/aisel/website/src/WebsiteBundle/Entity/Band.php</file>
+            <file>file:/C:/aisel/website/src/WebsiteBundle/FileUploader.php</file>
+            <file>file:/C:/aisel/website/src/WebsiteBundle/Controller/DefaultController.php</file>
+        </group>
+    </open-files>
+</project-private>

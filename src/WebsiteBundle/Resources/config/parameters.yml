@@ -1,0 +1,2 @@
+parameters:
+    bands_directory: '%kernel.root_dir%/../web/uploads/bands'
